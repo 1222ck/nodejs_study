@@ -35,3 +35,5 @@ myEvent.removeListener('event5', listener); // removeListener(이벤트명, 리�
 myEvent.emit('event5'); // 실행 안 됨
 
 console.log(myEvent.listenerCount('event2')); // listenerCount(이벤트명): 현재 리스너가 몇 개 연결되어 있는지 확인한다.
+
+// off(이벤트명, 콜백): 노드 10 버전에서 추가된 메서드로, removeListener와 기능이 같다.
